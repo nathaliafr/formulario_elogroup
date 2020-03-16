@@ -18,23 +18,20 @@ Utilize o comando `npm start` para executar o projeto. Abra a página `http://lo
 
 ## Hierarquia
 
-+src
-
- +app
-
-    +service
-
++ src
+    + app
+      + service
         - app.service.ts (Classe responsável pela conexão com o backend)
 
-    -app.component.css (Estilo do formulário)
+    - app.component.css (Estilo do formulário)
 
-    -app.component.html (Hipertexto responsável pela estruturação do formulário)
+    - app.component.html (Hipertexto responsável pela estruturação do formulário)
 
-    -app.component.spec.ts (Arquivo de teste)
+    - app.component.spec.ts (Arquivo de teste)
 
-    -app.component.ts (Classe responsável pela logica utilizada no formulário)
+    - app.component.ts (Classe responsável pela logica utilizada no formulário)
 
-    -app.module.ts (É o arquivo de configuração e importe das bibliotecas)
+    - app.module.ts (É o arquivo de configuração e importe das bibliotecas)
 
 
 ## plataforma Gupy
